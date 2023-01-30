@@ -8,7 +8,16 @@
 
 span.orange {
   background-color: skyblue;
-} */
+} 
+
 div .orange {
   color: orange;
+} */
+
+/* .orange + li {
+  color: red;
+} */
+
+.orange ~ li {
+  color: red;
 }

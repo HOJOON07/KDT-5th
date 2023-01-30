@@ -1,0 +1,44 @@
+/* h1:hover {
+  color: red;
+}
+
+a:focus {
+  background-color: blue;
+}
+
+#background-orange:focus {
+  background-color: orange;
+} */
+
+/* .fruits *:nth-child(2n + 1) {
+  color: red;
+} */
+
+/* .fruits *:not(span) {
+  color: red;
+} */
+.predator:nth-child(3) {
+  background-color: blue;
+}
+.zoo *:nth-child(2n) {
+  background-color: orange;
+}
+
+.predator:first-child {
+  background-color: purple;
+}
+
+.zoo *:not(.predator) {
+  background-color: green;
+}
+
+.zoo *:last-child {
+  background-color: red;
+}
+
+.zoo *:last-child:hover {
+  background-color: yellow;
+}
+/* .zoo span:hover {
+  background-color: red;
+} */

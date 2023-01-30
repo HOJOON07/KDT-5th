@@ -1,0 +1,26 @@
+/* .box::before {
+  content: "앞! ";
+} */
+
+/* [disabled] {
+  color: red;
+}
+
+[type="password"] {
+  background-color: orange;
+} */
+[disabled] {
+  background-color: red;
+}
+
+[placeholder="이름"] {
+  background-color: orange;
+}
+
+/* [value] {
+  background-color: blue;
+} */
+
+input:not([placeholder]) {
+  background-color: blue;
+}
