@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: orange;
+} */
+
+.container {
+  min-width: 700px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: orange;
+}
+
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  margin: auto;
+}
+
+.hero {
+  width: 80px;
+  height: 90px;
+  margin: 4px;
+  background-color: gray;
+  border: 3px solid white;
+  transform: skewX(-14deg);
+  border-radius: 10px;
+}
