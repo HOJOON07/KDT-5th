@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+      }
+
+      .parent {
+        background-color: skyblue;
+      }
+
+      .child {
+        background-color: blanchedalmond;
+        opacity: 0.7;
+      }
+
+      .child:hover {
+        transform: rotate(45deg);
+      }
+
+      .parent2 {
+        background-color: antiquewhite;
+      }
+
+      .child2 {
+        background-color: red;
+        opacity: 0.7;
+      }
+
+      .child2:hover {
+        transform: perspective(300px) rotateX(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <div class="child"></div>
+      </div>
+      <div class="parent2">
+        <div class="child2"></div>
+      </div>
+    </div>
+  </body>
+</html>
