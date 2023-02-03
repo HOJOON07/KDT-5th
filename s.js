@@ -8,17 +8,17 @@ function solution(quiz) {
     for (let j = 0; j < quizarr.length; j++) {
       const numberarr = Number(quizarr[j]);
     }
-    console.log("quizarr:", quizarr);
-    console.log((quizarr[0], quizarr[1], quizarr[2]) == quizarr[4]);
-    console.log(typeof2 quizarr[0]);
-    const quizstring = quizarr.join("");
+    // console.log("quizarr:", quizarr);
+    // console.log((quizarr[0], quizarr[1], quizarr[2]) == quizarr[4]);
+    // console.log(typeof quizarr[0]);
+    const quizstring = numberarr.join("");
     //[3-4=-3]//
     console.log("quizstring:", quizstring);
     typeof quizstring;
     if (quizstring == true) {
       answer.push("O");
     } else {
-      answer.push("X");
+      answer.push("`X");
     }
   }
 
@@ -32,5 +32,5 @@ console.log(solution(quiz));
 
 //     [i]를 split
 //     1.i->공백으로 나누고
-//     조건에 맞으면 o,x를 리턴
+//     조건에 맞으면 o,x를 리턴s
 //     결과를 빈배열에 push 함 .
